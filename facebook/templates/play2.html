@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <title>Play2</title>
+</head>
+<body>
+    {{name}} 님 안녕하세요!!
+    ({{status}} )이시군요!!
+    {{count}}번째 방문자 입니다!!<br>
+
+    <h2>나의 식단</h2>
+
+    {% for 메뉴 in diary %}
+    ------------
+    <br>
+    <p style="align-item:center">{{메뉴}}</p>
+    <br>
+
+    {% endfor %}
+
+
+</body>
+</html>
